@@ -7,6 +7,7 @@ const Transaction = require('../wallet/transaction');
 describe('Blockchain', () => {
   let blockchain, newChain, originalChain, errorMock;
 
+  
   beforeEach(() => {
     blockchain = new Blockchain();
     newChain = new Blockchain();
