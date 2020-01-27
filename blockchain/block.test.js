@@ -66,6 +66,7 @@ describe('Block', () => {
           )
         );
     });
+    
 
     it('sets a `hash` that matches the difficulty criteria', () => {
       expect(hexToBinary(minedBlock.hash).substring(0, minedBlock.difficulty))
