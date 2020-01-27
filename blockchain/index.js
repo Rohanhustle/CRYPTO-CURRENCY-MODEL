@@ -4,6 +4,7 @@ const Wallet = require('../wallet');
 const { cryptoHash } = require('../util');
 const { REWARD_INPUT, MINING_REWARD } = require('../config');
 
+
 class Blockchain {
   constructor() {
     this.chain = [Block.genesis()];
