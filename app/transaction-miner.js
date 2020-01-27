@@ -8,6 +8,7 @@ class TransactionMiner {
     this.pubsub = pubsub;
   }
 
+  
   mineTransactions() {
     const validTransactions = this.transactionPool.validTransactions();
 
