@@ -9,6 +9,7 @@ class Block extends Component {
     this.setState({ displayTransaction: !this.state.displayTransaction });
   }
 
+
   get displayTransaction() {
     const { data } = this.props.block;
 
@@ -49,7 +50,7 @@ class Block extends Component {
           bsSize="small"
           onClick={this.toggleTransaction}
         >
-          Show More
+          Show More!
         </Button>
       </div>
     );
@@ -69,5 +70,7 @@ class Block extends Component {
     );
   }
 };
+
+
 
 export default Block;
