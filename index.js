@@ -8,6 +8,7 @@ const TransactionPool = require('./wallet/transaction-pool');
 const Wallet = require('./wallet');
 const TransactionMiner = require('./app/transaction-miner');
 
+
 const isDevelopment = process.env.ENV === 'development';
 
 const REDIS_URL = isDevelopment ?
